@@ -31,7 +31,7 @@
 
      (in vscode) create templates / index.html
 
-
+* * (env) \my_django_app\my_django_app> python manage.py startapp accounts
 
 
 "# CreateDjango" 
