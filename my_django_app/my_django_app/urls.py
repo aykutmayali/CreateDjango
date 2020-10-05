@@ -20,5 +20,6 @@ from hello.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',index)
+    path('', index)
+   # path('hello/', index)   
 ]
