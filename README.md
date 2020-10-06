@@ -1,4 +1,7 @@
- ## from CMD on windows##
+ #Django #Login #Register #Authentication
+
+
+## from CMD on windows##
 
 * my_django_app>python -m venv env
 
@@ -33,5 +36,8 @@
 
 * * (env) \my_django_app\my_django_app> python manage.py startapp accounts
 
+ >PS : For Python use cmd terminal in VSCode , for activating env (my_django_app>env\Scripts\activate)
+
 
 "# CreateDjango" 
+
