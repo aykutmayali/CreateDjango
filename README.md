@@ -1,7 +1,7 @@
  #Django #Login #Register #Authentication
 
 
-## from CMD on windows##
+## from CMD on windows10
 
 * my_django_app>python -m venv env
 
@@ -39,5 +39,14 @@
  >PS : For Python use cmd terminal in VSCode , for activating env (my_django_app>env\Scripts\activate)
 
 
-"# CreateDjango" 
+"# Term Module" 
 
+* after create "Temp" directory (python manage.py startapp Temp)
+
+* add into INSTALLED_APPS = [ 'Term',] in setting.py 
+
+* modify model & admin py files as explained there
+
+* modify 0002_... file as explained there 
+
+* adding test: /Term/tests.py as explained there
