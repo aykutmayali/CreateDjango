@@ -6,6 +6,11 @@ class TermModelAdmin(admin.ModelAdmin):
     def has_add_permission(self, request): #disable add property @Term Admin Panel
         return False
 
+
+    def  has_delete_permission(self, request, obj=None):
+        return False
+
+
 admin.site.register(Term,TermModelAdmin)
 
 
